@@ -1,0 +1,64 @@
+{
+  "notes": [
+    {
+      "id": 1,
+      "heading": "Introduction to Mental State Detection",
+      "summary": "Explores the use of physiological and behavioral indicators to assess mental health objectively.",
+      "page_ref": 3
+    },
+    {
+      "id": 2,
+      "heading": "Importance of Understanding Mental States",
+      "summary": "Highlights the necessity for real-time measures of mental health, linking cortisol levels to stress disorders.",
+      "page_ref": 5
+    },
+    {
+      "id": 3,
+      "heading": "Research Gaps",
+      "summary": "Identifies the lack of integrated models combining various physiological and behavioral indicators.",
+      "page_ref": 5
+    },
+    {
+      "id": 4,
+      "heading": "Multimodal Integration",
+      "summary": "Discusses the improved accuracy in mental state detection through the integration of multiple biomarkers.",
+      "page_ref": 9
+    },
+    {
+      "id": 5,
+      "heading": "Proposed Methodology",
+      "summary": "Outlines a model that combines data from facial expressions, voice recordings, and physiological indicators.",
+      "page_ref": 12
+    },
+    {
+      "id": 6,
+      "heading": "Challenges in Data Collection",
+      "summary": "Addresses the difficulties in accessing diverse datasets and the ethical implications of sensitive data.",
+      "page_ref": 14
+    },
+    {
+      "id": 7,
+      "heading": "False Negatives in Model Accuracy",
+      "summary": "Discusses the risks of misclassifying mental states, potentially leading to delayed interventions.",
+      "page_ref": 14
+    },
+    {
+      "id": 8,
+      "heading": "Ethical and Privacy Concerns",
+      "summary": "Examines privacy issues surrounding the use of sensitive data in mental health assessments.",
+      "page_ref": 15
+    },
+    {
+      "id": 9,
+      "heading": "Model Architecture Overview",
+      "summary": "Describes the proposed deep learning architecture for processing multimodal data for mental state prediction.",
+      "page_ref": 12
+    },
+    {
+      "id": 10,
+      "heading": "Practical Applications",
+      "summary": "Explores applications of the model in healthcare, mental health assessments, and workplace wellness.",
+      "page_ref": 12
+    }
+  ]
+}
