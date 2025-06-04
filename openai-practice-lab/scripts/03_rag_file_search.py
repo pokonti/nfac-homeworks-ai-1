@@ -274,7 +274,7 @@ def create_vector_store(client, uploaded_files):
     print("\n🗂️  Creating vector store...")
     
     # Create vector store
-    vector_store = client.beta.vector_stores.create(
+    vector_store = client.vector_stores.create(
         name="Practice Lab Knowledge Base",
         expires_after={
             "anchor": "last_active_at",
@@ -285,7 +285,7 @@ def create_vector_store(client, uploaded_files):
     print(f"✅ Vector store created: {vector_store.id}")
     
     # Add files to vector store
-    file_batch = client.beta.vector_stores.file_batches.create_and_poll(
+    file_batch = client.vector_stores.file_batches.create_and_poll(
         vector_store_id=vector_store.id,
         file_ids=[file.id for file in uploaded_files]
     )
@@ -430,7 +430,7 @@ def cleanup_resources(client, uploaded_files, vector_store_id):
     
     # Delete vector store
     try:
-        client.beta.vector_stores.delete(vector_store_id)
+        client.vector_stores.delete(vector_store_id)
         print(f"🗑️  Deleted vector store: {vector_store_id}")
     except Exception as e:
         print(f"⚠️  Could not delete vector store {vector_store_id}: {e}")
